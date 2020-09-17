@@ -7,8 +7,8 @@ namespace Student_Alarm_Clock.Models
 {
     public class AlarmLogModel
     {
-        public int IndexId { get; set; }
-        public int AlarmId { get; set; }
+        public int IndexID { get; set; }
+        public int AlarmID { get; set; }
         public string YellowStatus { get; set; }
         public string RedStatus { get; set; }
         public bool AlarmUsed { get; set; }
