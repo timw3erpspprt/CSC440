@@ -26,5 +26,19 @@ namespace Student_Alarm_Clock.Controllers
 
             return View();
         }
+
+        public ActionResult AlarmList()
+        {
+            ViewBag.Message = "Alarm List Page";
+
+            return View();
+        }
+        
+        public ActionResult AlarmLog()
+        {
+            ViewBag.Message = "Alarm Log Page";
+
+            return View();
+        }
     }
 }
